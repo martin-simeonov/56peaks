@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=5.0, user-scalable=yes"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+  <meta name="theme-color" content="#0A1432"/>
+  <meta name="apple-mobile-web-app-title" content="Bulgarian 56 Peaks"/>
+  <meta name="description" content="Contact Bulgarian 56 Peaks - Get in touch with our nonprofit organization. We'd love to hear from you about our mission and initiatives."/>
+  <meta name="keywords" content="Bulgarian 56 Peaks, contact, nonprofit, inquiry, support, Bulgaria"/>
+  <meta name="author" content="Bulgarian 56 Peaks"/>
+  <meta name="robots" content="index, follow"/>
+  <meta property="og:title" content="Contact Bulgarian 56 Peaks"/>
+  <meta property="og:description" content="Get in touch with Bulgarian 56 Peaks. We'd love to hear from you about our mission and initiatives."/>
+  <meta property="og:type" content="website"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="Contact Bulgarian 56 Peaks - Get In Touch"/>
+  <meta name="twitter:description" content="Contact Bulgarian 56 Peaks - Get in touch with our nonprofit organization. We'd love to hear from you about our mission and initiatives."/>
+  <meta name="twitter:image" content="https://bulgarian56peaks.org/hero.jpg"/>
+  <meta property="og:url" content="https://bulgarian56peaks.org/contact.html"/>
+  <meta property="og:site_name" content="Bulgarian 56 Peaks"/>
+  <meta property="og:image" content="https://bulgarian56peaks.org/hero.jpg"/>
+  <meta property="og:image:alt" content="Contact Bulgarian 56 Peaks"/>
+  <meta property="og:locale" content="en_US"/>
+  <link rel="canonical" href="https://bulgarian56peaks.org/contact.html"/>
+  <title>Contact Bulgarian 56 Peaks - Get In Touch</title>
+  <link rel="stylesheet" href="styles.css?v=2" />
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <!-- Mountain Silhouette SVG Background -->
+  <div class="mountain-background">
+    <svg viewBox="0 0 1920 800" preserveAspectRatio="none">
+      <!-- Back layer mountains (furthest/smallest peaks) -->
+      <path d="M0,550 L150,380 L300,480 L450,320 L600,420 L750,350 L900,500 L1050,380 L1200,450 L1350,300 L1500,420 L1650,380 L1800,480 L1920,350 L1920,800 L0,800 Z" fill="#1a2d4d" opacity="0.85"/>
+      <!-- Middle layer mountains -->
+      <path d="M0,600 L200,420 L400,520 L600,360 L800,480 L900,300 L1100,450 L1300,320 L1500,480 L1700,380 L1920,480 L1920,800 L0,800 Z" fill="#0f2340" opacity="0.95"/>
+      <!-- Front layer mountains (highest/closest peaks) -->
+      <path d="M0,680 L180,480 L360,600 L540,380 L720,520 L900,280 L1080,500 L1260,340 L1440,580 L1620,400 L1800,550 L1920,420 L1920,800 L0,800 Z" fill="#0a1530" opacity="1"/>
+    </svg>
+  </div>
+
+  <!-- Navigation Header -->
+  <header class="nav-header">
+    <div class="nav-container">
+      <a href="index.html" class="logo">Bulgarian 56 Peaks</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="nav-menu">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="initiatives.html">Initiatives</a>
+        <a href="challenges.html">Challenges</a>
+        <a href="donations.html">Donations</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="page-hero contact-hero">
+    <div class="page-hero-content">
+      <h1>Get In Touch</h1>
+      <p>We'd love to hear from you. Let's create something amazing together.</p>
+    </div>
+  </section>
+
+  <!-- Contact Content -->
+  <section class="contact-content">
+    <div class="content-container">
+      <div class="contact-grid">
+        <!-- Contact Form -->
+        <div class="contact-form-wrapper">
+          <h2>Send us a Message</h2>
+          <form class="contact-form" id="contactForm" method="POST" action="contact.php">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="6" required></textarea>
+            </div>
+            <button type="button" class="submit-btn" id="submitBtn" onclick="window.location.href='coming-soon.html'">Send Message</button>
+          </form>
+          <div class="form-message" id="formMessage"></div>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="contact-info-wrapper">
+          <h2>Contact Information</h2>
+          
+          <div class="contact-info-card">
+            <div class="info-icon"><i data-lucide="map-pin"></i></div>
+            <h3>Location</h3>
+            <p>Wherever the peaks touch the sky<br>Creative Studio, World</p>
+          </div>
+
+          <div class="contact-info-card">
+            <div class="info-icon"><i data-lucide="mail"></i></div>
+            <h3>Email</h3>
+            <p><a href="mailto:hello@56peaks.com">hello@56peaks.com</a></p>
+          </div>
+
+          <div class="contact-info-card">
+            <div class="info-icon"><i data-lucide="message-circle"></i></div>
+            <h3>Social</h3>
+            <div class="social-links">
+              <a href="#" target="_blank" class="social-link twitter" title="Twitter">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2s9 5 20 5a9.5 9.5 0 00-9-5.5c4.75 2.25 9.5-.5 11-4.6a4.48 4.48 0 01-3.12 1.11 4.41 4.41 0 01-.55-.05 4.48 4.48 0 004.35-3.1 9.96 9.96 0 01-2.78.844"/>
+                </svg>
+              </a>
+              <a href="#" target="_blank" class="social-link instagram" title="Instagram">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5" fill="none" stroke="currentColor" stroke-width="2"/>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37Z" fill="none" stroke="currentColor" stroke-width="2"/>
+                  <circle cx="17.5" cy="6.5" r="1.5" fill="currentColor"/>
+                </svg>
+              </a>
+              <a href="#" target="_blank" class="social-link linkedin" title="LinkedIn">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/>
+                  <circle cx="4" cy="4" r="2"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Bulgarian 56 Peaks</h3>
+        <p>Where mountains meet motion. Premium experiences crafted with precision.</p>
+      </div>
+      <div class="footer-section quick-links-section">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="initiatives.html">Initiatives</a></li>
+          <li><a href="challenges.html">Challenges</a></li>
+          <li><a href="donations.html">Donations</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Bulgarian 56 Peaks. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js?v=2"></script>
+  <script>
+    // Simple form handling
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const message = document.getElementById('formMessage');
+      
+      // Show success message
+      message.textContent = 'Thank you! Your message has been sent.';
+      message.style.color = '#5AA678';
+      message.style.display = 'block';
+      
+      // Reset form
+      this.reset();
+      
+      // Clear message after 5 seconds
+      setTimeout(() => {
+        message.textContent = '';
+        message.style.display = 'none';
+      }, 5000);
+    });
+  </script>
+</body>
+</html>

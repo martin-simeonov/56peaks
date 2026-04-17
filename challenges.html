@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=5.0, user-scalable=yes"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+  <meta name="theme-color" content="#0A1432"/>
+  <meta name="apple-mobile-web-app-title" content="Bulgarian 56 Peaks"/>
+  <meta name="description" content="Our Challenges - Bulgarian 56 Peaks works on ongoing, completed, and future challenges to make a lasting impact."/>
+  <meta name="keywords" content="Bulgarian 56 Peaks, challenges, projects, goals, impact, Bulgaria"/>
+  <meta name="author" content="Bulgarian 56 Peaks"/>
+  <meta name="robots" content="index, follow"/>
+  <meta property="og:title" content="Our Challenges - Bulgarian 56 Peaks"/>
+  <meta property="og:description" content="Discover our ongoing, completed, and future challenges that drive our mission forward."/>
+  <meta property="og:type" content="website"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="Our Challenges - Bulgarian 56 Peaks Projects & Goals"/>
+  <meta name="twitter:description" content="Our Challenges - Bulgarian 56 Peaks works on ongoing, completed, and future challenges to make a lasting impact across Bulgaria."/>
+  <meta name="twitter:image" content="https://bulgarian56peaks.org/Peaks-2.png"/>
+  <meta property="og:url" content="https://bulgarian56peaks.org/challenges.html"/>
+  <meta property="og:site_name" content="Bulgarian 56 Peaks"/>
+  <meta property="og:image" content="https://bulgarian56peaks.org/Peaks-2.png"/>
+  <meta property="og:image:alt" content="Bulgarian 56 Peaks - Our greatest achievement in the mountains"/>
+  <meta property="og:locale" content="en_US"/>
+  <link rel="canonical" href="https://bulgarian56peaks.org/challenges.html"/>
+  <title>Our Challenges - Bulgarian 56 Peaks Projects & Goals</title>
+  <link rel="stylesheet" href="styles.css?v=2" />
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+</head>
+<body>
+  <!-- Mountain Silhouette SVG Background -->
+  <div class="mountain-background">
+    <svg viewBox="0 0 1920 800" preserveAspectRatio="none">
+      <!-- Back layer mountains (furthest/smallest peaks) -->
+      <path d="M0,550 L150,380 L300,480 L450,320 L600,420 L750,350 L900,500 L1050,380 L1200,450 L1350,300 L1500,420 L1650,380 L1800,480 L1920,350 L1920,800 L0,800 Z" fill="#1a2d4d" opacity="0.85"/>
+      <!-- Middle layer mountains -->
+      <path d="M0,600 L200,420 L400,520 L600,360 L800,480 L900,300 L1100,450 L1300,320 L1500,480 L1700,380 L1920,480 L1920,800 L0,800 Z" fill="#0f2340" opacity="0.95"/>
+      <!-- Front layer mountains (highest/closest peaks) -->
+      <path d="M0,680 L180,480 L360,600 L540,380 L720,520 L900,280 L1080,500 L1260,340 L1440,580 L1620,400 L1800,550 L1920,420 L1920,800 L0,800 Z" fill="#0a1530" opacity="1"/>
+    </svg>
+  </div>
+
+  <!-- Navigation Header -->
+  <header class="nav-header">
+    <div class="nav-container">
+      <a href="index.html" class="logo">Bulgarian 56 Peaks</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="nav-menu">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="initiatives.html">Initiatives</a>
+        <a href="challenges.html" class="active">Challenges</a>
+        <a href="donations.html">Donations</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="page-hero challenges-hero">
+    <div class="page-hero-content">
+      <h1>Our Challenges</h1>
+      <p>Progress made through perseverance and dedication to our mission</p>
+    </div>
+  </section>
+
+  <!-- Challenges Content -->
+  <section class="challenges-content">
+    <div class="challenges-container">
+      <div class="challenges-intro">
+        <h2>Climbing Every Peak</h2>
+        <p>Our journey is defined by the challenges we undertake and overcome. Below are the key initiatives that drive our mission forward.</p>
+      </div>
+
+      <div class="challenges-grid">
+        
+        <!-- Ongoing Challenge Card -->
+        <div class="challenge-card challenge-card-ongoing">
+          <div class="challenge-badge">Ongoing</div>
+          <div class="challenge-icon"><i data-lucide="building-2"></i></div>
+          <h3>Rural School Infrastructure</h3>
+          <p>Building and improving educational facilities in rural areas. We're currently working on 15 school projects across Bulgaria, focusing on modern learning environments and technology access.</p>
+          <div class="challenge-progress">
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 65%"></div>
+            </div>
+            <span class="progress-text">65% Complete</span>
+          </div>
+        </div>
+
+        <!-- Ongoing Challenge Card -->
+        <div class="challenge-card challenge-card-ongoing">
+          <div class="challenge-badge">Ongoing</div>
+          <div class="challenge-icon"><i data-lucide="heart"></i></div>
+          <h3>Medical Aid Distribution</h3>
+          <p>Providing essential medical supplies and healthcare support to underserved communities. Monthly clinics, medicine distributions, and preventive health education programs.</p>
+          <div class="challenge-progress">
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 48%"></div>
+            </div>
+            <span class="progress-text">48% Complete</span>
+          </div>
+        </div>
+
+        <!-- Completed Challenge Card -->
+        <div class="challenge-card challenge-card-completed">
+          <div class="challenge-badge">Completed</div>
+          <div class="challenge-icon"><i data-lucide="tree-pine"></i></div>
+          <h3>Forest Reforestation Initiative</h3>
+          <p>Successfully planted over 50,000 trees across three national forests. This initiative helped restore biodiversity, combat climate change, and create green job opportunities for local communities.</p>
+          <div class="challenge-progress">
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 100%"></div>
+            </div>
+            <span class="progress-text">100% Complete</span>
+          </div>
+        </div>
+
+        <!-- Future Challenge Card -->
+        <div class="challenge-card challenge-card-future">
+          <div class="challenge-badge">Future</div>
+          <div class="challenge-icon"><i data-lucide="monitor"></i></div>
+          <h3>Youth Tech Training Center</h3>
+          <p>Launching our ambitious plan to build regional technology and coding training centers for young people. This will provide free programming education and digital skills to 1,000+ students annually.</p>
+          <div class="challenge-progress">
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 25%"></div>
+            </div>
+            <span class="progress-text">Planning Phase</span>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="achievement-section">
+        <h2>Our Greatest Achievement</h2>
+        <p>A milestone that defines who we are and what we stand for.</p>
+        <div class="achievement-photo-wrapper">
+          <img src="Peaks-2.png" alt="Bulgarian 56 Peaks — highest achievement" class="achievement-photo" />
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Bulgarian 56 Peaks</h3>
+        <p>Where mountains meet motion. Premium experiences crafted with precision.</p>
+      </div>
+      <div class="footer-section quick-links-section">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="initiatives.html">Initiatives</a></li>
+          <li><a href="challenges.html">Challenges</a></li>
+          <li><a href="donations.html">Donations</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Bulgarian 56 Peaks. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js?v=2"></script>
+</body>
+</html>
